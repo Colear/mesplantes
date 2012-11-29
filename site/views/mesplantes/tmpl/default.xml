@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<metadata>
+	<!-- permet de sélectionner le composant comme type de menu -->
+    <layout title="COM_MESPLANTES_MESPLANTES_VIEW_DEFAULT_TITLE">
+        <message>COM_MESPLANTES_MESPLANTES_VIEW_DEFAULT_DESC</message>
+    </layout>
+	<fields
+		name="request"
+		addfieldpath="/administrator/components/com_mesplantes/models/fields"
+	>
+		<fieldset name="request">
+			<!-- champs qui sera visible dans le paramétrage du lien de
+			     menu en zone admin -->
+			<field
+				name="id"
+				type="msgplante"
+				label="COM_MESPLANTES_MESPLANTES_FIELD_GREETING_LABEL"
+				description="COM_MESPLANTES_MESPLANTES_FIELD_GREETING_DESC"
+			/>
+		</fieldset>
+	</fields>	
+</metadata>
